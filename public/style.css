@@ -1,0 +1,81 @@
+#canvas {
+  position: absolute;
+  border: 1px solid black;
+  margin: auto;
+  background: #00000033;
+}
+
+#canvasContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#startMenu {
+  position: absolute;
+  left: calc(50% - 350px);
+  width: 700px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+}
+
+#tutorialMenu {
+  display: none;
+  position: absolute;
+  left: calc(50% - 350px);
+  width: 700px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-family: "Bowlby One SC", sans-serif;
+}
+
+#finishMenu {
+  display: none;
+  position: absolute;
+  left: calc(50% - 350px);
+  width: 700px;
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-family: "Bowlby One SC", sans-serif;
+}
+
+button {
+  font-family: "Bowlby One SC", sans-serif;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  background-color: #555;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startMenu h1 {
+  font-family: "Londrina Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  pointer-events: none;
+}
+
+.showTutorial {
+  display: flex;
+}

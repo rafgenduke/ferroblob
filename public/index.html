@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="GitLab Pages">
+  <title>FerroBlob</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Londrina+Outline&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="canvasContainer">
+    <canvas id="canvas" width="700" height="700"></canvas>
+  </div>
+  <div id="startMenu">
+    <h1>FerroBlob</h1>
+    <button id="startButton">Start Game</button>
+    <button id="tutorialButton">Tutorial</button>
+  </div>
+  <div id="tutorialMenu">
+    <h1>Tutorial</h1>
+    <p>1. Use the 1 - 5 number keys to switch between the different magnets (they are labeled).</p>
+    <p>2. Use the magnets to move the FerroBlob to the yellow flag (the goal).</p>
+    <p>3. Avoid the yellow moving balls and the orange spikey walls.</p>
+    <button id="backButton">Back</button>
+  </div>
+  <div id="finishMenu">
+    <h1>Game completed!</h1>
+    <p>Congratulations, you have completed all levels!</p>
+    <button id="backToMenuButton">Back to Menu</button>
+  </div>
+  <script type="module" src="scripts/game.js"></script>
+</body>
+
+</html>

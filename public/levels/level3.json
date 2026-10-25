@@ -1,0 +1,109 @@
+{
+    "barriers": [
+        {
+            "x": 0,
+            "y": 680,
+            "width": 800,
+            "height": 20
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 20
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 20,
+            "height": 700
+        },
+        {
+            "x": 680,
+            "y": 0,
+            "width": 20,
+            "height": 700
+        },
+        {
+            "x": 20,
+            "y": 480,
+            "width": 233,
+            "height": 200
+        },
+        {
+            "x": 483,
+            "y": 480,
+            "width": 233,
+            "height": 200
+        }
+    ],
+    "deadlyBarriers": [
+        {
+            "x": 420,
+            "y": 150,
+            "width": 130,
+            "height": 50
+        },
+        {
+            "x": 200,
+            "y": 20,
+            "width": 50,
+            "height": 300
+        }
+    ],
+    "enemies": [],
+    "magnets": [
+        {
+            "x": 250,
+            "y": 20,
+            "width": 50,
+            "height": 180,
+            "side": "left"
+        },
+        {
+            "x": 630,
+            "y": 300,
+            "width": 50,
+            "height": 180,
+            "side": "right"
+        },
+        {
+            "x": 500,
+            "y": 20,
+            "width": 180,
+            "height": 50,
+            "side": "top"
+        },
+        {
+            "x": 20,
+            "y": 430,
+            "width": 180,
+            "height": 50,
+            "side": "bottom"
+        },
+        {
+            "x": 278,
+            "y": 630,
+            "width": 180,
+            "height": 50,
+            "side": "bottom"
+        }
+    ],
+    "blob": {
+        "x": 100,
+        "y": 100,
+        "width": 50,
+        "height": 50
+    },
+    "finish": {
+        "x": 253,
+        "y": 580,
+        "width": 230,
+        "height": 50
+    },
+    "nextLevel": 4,
+    "background": {
+        "image": "./images/level3_background.png",
+        "sprites": 3
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "barriers": [
+        {
+            "x": 0,
+            "y": 680,
+            "width": 800,
+            "height": 20
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 20
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "width": 20,
+            "height": 700
+        },
+        {
+            "x": 680,
+            "y": 0,
+            "width": 20,
+            "height": 700
+        },
+        {
+            "x": 245,
+            "y": 20,
+            "width": 445,
+            "height": 480
+        }
+    ],
+    "deadlyBarriers": [
+        {
+            "x": 220,
+            "y": 20,
+            "width": 25,
+            "height": 480
+        }
+    ],
+    "enemies": [
+        {
+            "x": 100,
+            "y": 350,
+            "width": 35,
+            "height": 35,
+            "isHorizontal": true,
+            "direction": 1
+        },
+        {
+            "x": 350,
+            "y": 600,
+            "width": 35,
+            "height": 35,
+            "isHorizontal": false,
+            "direction": 1
+        }
+    ],
+    "magnets": [
+        {
+            "x": 20,
+            "y": 630,
+            "width": 180,
+            "height": 50,
+            "side": "bottom"
+        },
+        {
+            "x": 630,
+            "y": 500,
+            "width": 50,
+            "height": 180,
+            "side": "right"
+        }
+    ],
+    "blob": {
+        "x": 100,
+        "y": 100,
+        "width": 50,
+        "height": 50
+    },
+    "finish": {
+        "x": 580,
+        "y": 500,
+        "width": 50,
+        "height": 180
+    },
+    "nextLevel": 3,
+    "background": {
+        "image": "./images/level2_background.png",
+        "sprites": 3
+    }
+}
